@@ -16,6 +16,7 @@
     "lucide-react": "^0.460.0",
     "react-hook-form": "^7.0.0",
     "@hookform/resolvers": "^3.0.0",
+    "class-variance-authority": "^0.7.0",
     "zod": "^3.0.0"
   },
   "devDependencies": {
