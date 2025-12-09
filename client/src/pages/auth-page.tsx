@@ -13,7 +13,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { Loader2, MessageSquare, CheckSquare, Clock, FileText, Users } from "lucide-react";
-import logoUrl from "@assets/grovefan_logo-modified-Photoroom_1765220095490.png";
+import logoUrl from "../assets/grovefan_logo-modified-Photoroom_1765220095490.png";
 
 const loginSchema = z.object({
   username: z.string().min(1, "User ID is required"),
